@@ -14,7 +14,11 @@ public class App
         System.out.println( "Hello World!" );
         
         ApplicationContext context= new ClassPathXmlApplicationContext("spring_core/spring_core/config.xml");
-        System.out.println(context.getBean("std1"));
-
+        
+        Student student1= (Student) context.getBean("std1");
+        
+        
+        System.out.println(student1.getStudentAddresses());
+        
     }
 }

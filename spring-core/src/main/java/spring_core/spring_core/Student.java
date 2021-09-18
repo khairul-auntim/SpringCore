@@ -11,6 +11,7 @@ public class Student {
 	}
 
 	public void setStudentID(int studentID) {
+		System.out.println("Seeting student ID");
 		this.studentID = studentID;
 	}
 
@@ -19,6 +20,7 @@ public class Student {
 	}
 
 	public void setStudentAddresses(String studentAddresses) {
+		System.out.println("Seeting student Address");
 		this.studentAddresses = studentAddresses;
 	}
 
@@ -27,6 +29,7 @@ public class Student {
 	}
 
 	public void setStudentPhones(String studentPhones) {
+		System.out.println("Seeting student Phones");
 		this.studentPhones = studentPhones;
 	}
 
