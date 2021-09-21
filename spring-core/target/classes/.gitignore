@@ -1,3 +1,5 @@
 /spring_core/
 /com/
 /META-INF/
+/beanlifecycle/
+/autowire/
